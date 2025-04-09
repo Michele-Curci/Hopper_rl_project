@@ -8,3 +8,10 @@ tensorboard --logdir=ppo_hopper_tensorboard/
 
 Use this to install requirements
 pip install -r requirements.txt
+
+To get repository from git
+git clone https://github.com/Michele-Curci/Hopper_rl_project.git
+cd Hopper_rl_project
+python -m venv rl_venv
+.\rl_env\Scripts\activate
+pip install -r requirements.txt
